@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">NutriSport</string>
+    <string name="title_activity_home">Inicio</string>
+    <string name="home_sesion_close">Sesión cerrada</string>
+
+    <!-- TODO: TEXT INPUT DEFINED -->
+    <string name="login_pass">Contraseña</string>
+    <string name="login_userEmail">Correo Electrónico</string>
+
+    <!-- TODO: TEXT OUTPUT OBTEIN -->
+    <string name="meta_valorCalorifico1">El valor calorífico mínimo de su metabolismo basal es de: </string>
+    <string name="meta_valorCalorifico2"> calorías.</string>
+    <string name="grasa_result1">Su % de grasa es del: </string>
+    <string name="grasa_result2"> %.</string>
+    <string name="imc_result_intro">Su IMC es de: </string>
+    <string name="imc_result1">. Clasificación: Peso bajo. Necesario valorar signos de desnutrición.</string>
+    <string name="imc_result2">. Clasificación: Normal.</string>
+    <string name="imc_result3">. Clasificación: Sobrepeso.</string>
+    <string name="imc_result4">. Clasificación: Obesidad grado I. Riesgo relativo alto para desarrollar enfermedades cardiovasculares.</string>
+    <string name="imc_result5">. Clasificación: Obesidad grado II.  Riesgo relativo muy alto para desarrollar enfermedades cardiovasculares.</string>
+    <string name="imc_result6">. Clasificación: Obesidad grado III Extrema o Mórbida.  Riesgo relativo extremadamente alto para desarrollar enfermedades cardiovasculares.</string>
+    <string name="agregarAlimento_ok">Alimento añadido</string>
+    <string name="agregarEntrenamiento_ok">Entrenamiento añadido</string>
+
+    <!-- TODO: VALIDATIONS -->
+    <string name="login_validatePass">El campo referente a la contraseña no puede estar vacío.</string>
+    <string name="login_validateEmail">El campo referente al correo no puede estar vacío.</string>
+    <string name="login_no_data_validate">Datos no válidos.</string>
+    <string name="meta_no_data_validate">Los datos introducidos deben de ser de carácter numérico.</string>
+    <string name="meta_valor">Debe de introducir un valor.</string>
+    <string name="grasaCorporea_data">Debe de introducir un valor.</string>
+    <string name="grasa_no_data_validate">Los datos introducidos deben de ser de carácter numérico.</string>
+    <string name="imc_data">Debe de introducir un valor.</string>
+    <string name="imc_no_data_validate">Los datos introducidos deben de ser de carácter numérico.</string>
+    <string name="agregarAlimento_data">Debe de introducir un valor.</string>
+    <string name="agregarAlimento_no_data_validate">El valor de todos los campos salvo del nombre del producto deben de ser numéricos.</string>
+    <string name="agregarEntrenamiento_no_data_validate">El valor en el campo de la duración debe ser numérico.</string>
+    <string name="agregarEntrenamiento_data">Debe de introducir un valor.</string>
+
+    <!-- TODO: LAYOUT ELEMENTS-->
+    <string name="agregarAlimento_info">Especifique los datos correspondientes a porciones de 100 gramos.</string>
+    <string name="agregarAlimento_InputProducto">Producto</string>
+    <string name="agregarAlimento_InputHidratos">Hidratos</string>
+    <string name="agregarAlimento_InputProteinas">Proteínas</string>
+    <string name="agregarAlimento_InputGrasas">Grasas</string>
+    <string name="agregarAlimento_InputEnergia">Energía</string>
+    <string name="agregarAlimento_InputFibra">Fibra</string>
+    <string name="agregarAlimento_btnAction">Añadir Alimento</string>
+    <string name="grasaCorporal_info">Debe introducir en el campo relacionado con el sexo el valor 0 si es usted mujer o valor 1 si es un hombre.</string>
+    <string name="grasaCorporal_InputEdad">Edad</string>
+    <string name="grasaCorporal_InputIMC">IMC</string>
+    <string name="grasaCorporal_InputSexo">Sexo</string>
+    <string name="grasaCorporal_btnAction">Calcular Grasa Corporal</string>
+    <string name="imc_info">Deberá memorizar el valor numérico resultante del IMC (Índice de Masa Corporal) para un posterior cálculo del% de grasa corpórea.</string>
+    <string name="imc_InputPeso">Peso en Kilogramos</string>
+    <string name="imc_InputAltura">Altura en metros</string>
+    <string name="imc_btnAction">Calcular IMC</string>
+    <string name="guiaNutricional_info">Mediciones basadas en cantidades de 100 gramos.</string>
+    <string name="home_btnActionNutricion">Nutricion</string>
+    <string name="home_btnActionEntrenamiento">Entrenamiento</string>
+    <string name="login_InputCorreoElectronico">Correo Electrónico</string>
+    <string name="login_InputContraseña">Contraseña</string>
+    <string name="login_btnActionIniciarSEsion">Iniciar Sesión</string>
+    <string name="Login_bntActionRegistrarse">Registrarse</string>
+    <string name="Login_checkedData">save data</string>
+    <string name="recyclerAlimento_Producto">Producto</string>
+    <string name="recyclerAlimento_Hidratos">Hidratos</string>
+    <string name="recyclerAlimento_Proteinas">Proteínas</string>
+    <string name="recyclerAlimento_Grasas">Grasas</string>
+    <string name="recyclerAlimento_Energia">Energía</string>
+    <string name="recyclerAlimento_Fibra">Fibra</string>
+    <string name="recyclerAlimento_Unidad">Unidad</string>
+    <string name="recyclerAlimento_gr">gr</string>
+    <string name="recyclerAlimento_Kcal">Kcal</string>
+    <string name="recyclerEntrenamiento_Dia">Día de entrenamiento</string>
+    <string name="recyclerEntrenamiento_Tipo">Tipo de entrenamiento</string>
+    <string name="recyclerEntrenamiento_Duracion">Duración en minutos</string>
+    <string name="recyclerEntrenamiento_Observaciones">Observaciones</string>
+    <string name="agregarEntrenamiento_Dia">Día de entrenamiento</string>
+    <string name="agregarEntrenamiento_Tipo">Tipo de entrenamiento</string>
+    <string name="agregarEntrenamiento_Duracion">Duración en minutos</string>
+    <string name="agregarEntrenamiento_Notas">Observaciones</string>
+    <string name="agregarEntrenamiento_btnAddRutine">Añadir entrenamiento realizado</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_metabolismo_basal">MetabolismoBasalActivity</string>
+    <string name="title_activity_guia_nutricional">GuiaNutricionalActivity</string>
+</resources>

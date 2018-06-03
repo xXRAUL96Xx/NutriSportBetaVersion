@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context="com.example.aaron.nutrisportbetaversion.AgregarAlimentoActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+
+        <TextView
+            android:id="@+id/textView_infoFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/agregarAlimento_info"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textAddProducto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/agregarAlimento_InputProducto" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textAddHidratos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/agregarAlimento_InputHidratos" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textAddProteinas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/agregarAlimento_InputProteinas" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textAddGrasas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/agregarAlimento_InputGrasas" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textAddEnergia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/agregarAlimento_InputEnergia" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textAddFibra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/agregarAlimento_InputFibra" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_addFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/agregarAlimento_btnAction" />
+    </LinearLayout>
+</RelativeLayout>

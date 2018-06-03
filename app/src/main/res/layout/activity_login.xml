@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="false"
+    android:layout_centerInParent="false"
+    android:layout_centerVertical="false"
+    tools:context="com.example.aaron.nutrisportbetaversion.LoginActivity">
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:ems="10"
+        android:hint="@string/login_InputCorreoElectronico"
+        android:inputType="textPersonName"
+        android:textColorHint="#2bbd7e"/>
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtEmail"
+        android:layout_alignLeft="@+id/txtEmail"
+        android:layout_alignRight="@+id/txtEmail"
+        android:layout_alignStart="@+id/txtEmail"
+        android:layout_below="@+id/txtEmail"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="@string/login_InputContraseña"
+        android:inputType="textPassword"
+        android:textColorHint="#2bbd7e"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtPassword"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnIniSe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtPassword"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:text="@string/login_btnActionIniciarSEsion"
+            android:background="@drawable/boton_estandar"
+            android:textColor="#2bbd7e"/>
+
+        <Button
+            android:id="@+id/btnReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:text="@string/Login_bntActionRegistrarse"
+            android:background="@drawable/boton_estandar"
+            android:textColor="#2bbd7e"/>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/Login_checkedData"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkbox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:onClick="clean_data"
+        android:background="@drawable/ic_action_clean"
+        android:backgroundTint="@color/colorPrimaryDark"/>
+
+</RelativeLayout>

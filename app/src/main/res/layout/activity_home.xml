@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aaron.nutrisportbetaversion.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="350dp"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout2">
+
+        <Button
+            android:id="@+id/btnNutricion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:text="@string/home_btnActionNutricion"
+            android:background="@drawable/boton_estandar"
+            android:textColor="#2bbd7e"/>
+
+        <Button
+            android:id="@+id/btnEntrenamiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:text="@string/home_btnActionEntrenamiento"
+            android:background="@drawable/boton_estandar"
+            android:textColor="#2bbd7e"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true"
+        android:elevation="0dp"
+        android:onClick="close_sesion"
+        app:srcCompat="@drawable/ic_action_close"
+        android:background="@drawable/boton_estandar"
+        android:backgroundTintMode="@color/colorPrimaryDark"
+        />
+
+</RelativeLayout>
